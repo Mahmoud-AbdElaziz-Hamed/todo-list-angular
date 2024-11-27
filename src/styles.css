@@ -3,3 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top, #232323, #000000);
+  color: #c3b3d8;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
