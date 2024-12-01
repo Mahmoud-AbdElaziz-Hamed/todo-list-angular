@@ -1,0 +1,30 @@
+.user {
+  border-radius: 1rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  padding: 0.4rem 0.8rem;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #43015e, #7521cf);
+}
+.user:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #2c0a4c, #450d80);
+}
+button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.userImage {
+  margin-right: 0.5rem;
+  border-radius: 50rem;
+  width: 20%;
+  object-fit: contain;
+}
+span {
+  text-wrap: nowrap;
+  overflow: hidden;
+}
