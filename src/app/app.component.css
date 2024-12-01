@@ -1,0 +1,46 @@
+main {
+  width: 90%;
+  max-width: 50rem;
+  margin: 2.5rem auto;
+  gap: 2;
+}
+
+#user {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+  overflow: scroll;
+}
+
+.users-list {
+  padding: 1rem;
+  width: 13rem;
+  height: 20rem;
+  overflow-y: scroll;
+}
+@media (max-width: 680px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main > div {
+    width: 90%;
+    margin: auto;
+  }
+  .users-list {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    width: 100%;
+    overflow-x: scroll;
+    height: fit-content;
+    margin-bottom: 1rem;
+  }
+  .users-list li {
+    height: fit-content;
+    margin-right: 0.5rem;
+  }
+}
