@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header button {
+  margin: 0 auto;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  background: linear-gradient(to bottom, #43015e, #7521cf);
+}
